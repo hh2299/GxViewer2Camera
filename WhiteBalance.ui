@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CWhiteBalance</class>
+ <widget class="QDialog" name="CWhiteBalance">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>339</width>
+    <height>169</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>WhiteBalance</string>
+  </property>
+  <widget class="QGroupBox" name="Balance_White">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>12</y>
+     <width>331</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Balance White</string>
+   </property>
+   <widget class="QComboBox" name="BalanceRatioSelector">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>24</y>
+      <width>131</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="editable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="BalanceRatioSelectorLabel">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>141</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>BalanceRatioSelector</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="BalanceRatioLabel">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>60</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>BalanceRatio</string>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="BalanceRatioSpin">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>54</y>
+      <width>131</width>
+      <height>24</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="WhiteBalanceAuto">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>84</y>
+      <width>131</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="editable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="WhiteBalanceRatioLabel">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>90</y>
+      <width>141</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>WhiteBalanceAuto</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="WhiteBalance_Close">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>130</y>
+     <width>131</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::StrongFocus</enum>
+   </property>
+   <property name="text">
+    <string>Close</string>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>BalanceRatioSelector</tabstop>
+  <tabstop>BalanceRatioSpin</tabstop>
+  <tabstop>WhiteBalanceAuto</tabstop>
+  <tabstop>WhiteBalance_Close</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
